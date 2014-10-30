@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\VectorX">
+      <UniqueIdentifier>{a9d0f0bd-2102-46c2-a92c-d0e5b2b0d58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FileReader">
+      <UniqueIdentifier>{6d976974-2108-4d8e-a659-5db096ab6d7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StringConverter">
+      <UniqueIdentifier>{86030081-40af-43eb-97ab-a84bab23c671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FluidFieldDataConverter">
+      <UniqueIdentifier>{b4ec4ecf-d10c-4e56-a210-dbfa30889bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry">
+      <UniqueIdentifier>{6e0a7e20-cd28-4c9f-8b73-1dfabc5f649c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HydrodynamicForceCalculator">
+      <UniqueIdentifier>{b1b40619-46bf-4f83-86b0-392016085991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cell">
+      <UniqueIdentifier>{923af316-dd37-4fb8-913b-ee8521d148e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EffectiveStressCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectiveStressCalculator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VirialStressTensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessorBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FluidFieldDataConverter\FluidFieldConverter.h">
+      <Filter>Header Files\FluidFieldDataConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="FluidFieldDataConverter\FluidFieldConverter.hpp">
+      <Filter>Header Files\FluidFieldDataConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="FluidFieldDataConverter\FluidFieldData.h">
+      <Filter>Header Files\FluidFieldDataConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorX\VectorX.h">
+      <Filter>Header Files\VectorX</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorX\VectorX.hpp">
+      <Filter>Header Files\VectorX</Filter>
+    </ClInclude>
+    <ClInclude Include="StringConverter\StringUtility.h">
+      <Filter>Header Files\StringConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader\VPFReader.h">
+      <Filter>Header Files\FileReader</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader\DOInteractionReader.hpp">
+      <Filter>Header Files\FileReader</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader\DOInteractionReader.h">
+      <Filter>Header Files\FileReader</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader\CSVReader.h">
+      <Filter>Header Files\FileReader</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\InteractionData.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="HydrodynamicForceCalculator\HydrodynamicForceCalculator.h">
+      <Filter>Header Files\HydrodynamicForceCalculator</Filter>
+    </ClInclude>
+    <ClInclude Include="CundallStressTensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\ImmersedSphere.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Tensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Rectangle.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\LineSegment.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell\Cell.h">
+      <Filter>Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell\Cell.hpp">
+      <Filter>Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader\ParameterReader.h">
+      <Filter>Header Files\FileReader</Filter>
+    </ClInclude>
+    <ClInclude Include="FluidFieldDataConverter\BoundaryType.h">
+      <Filter>Header Files\FluidFieldDataConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="_ahedron.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Sphere.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell\Descroptor.h">
+      <Filter>Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="StressTimeAverager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StressTimeAverager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LagrangianStrainTensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LagrangianStrainTensor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StrainInfoProcessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\box.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="KhakharStress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KhakharStress.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader\CSVRefinedReader.h">
+      <Filter>Header Files\FileReader</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader\VPFRefinedReader.h">
+      <Filter>Header Files\FileReader</Filter>
+    </ClInclude>
+    <ClInclude Include="shearRateProcessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShearRateTimeAverager.h">
+      <Filter>Header Files\VectorX</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
